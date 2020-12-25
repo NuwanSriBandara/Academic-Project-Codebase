@@ -1,0 +1,428 @@
+
+Gear Motor 3.elf:     file format elf32-avr
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .text         00000216  00000000  00000000  00000094  2**1
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  1 .data         00000002  00800060  00000216  000002aa  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+  2 .bss          00000002  00800062  00800062  000002ac  2**0
+                  ALLOC
+  3 .comment      00000030  00000000  00000000  000002ac  2**0
+                  CONTENTS, READONLY
+  4 .note.gnu.avr.deviceinfo 0000003c  00000000  00000000  000002dc  2**2
+                  CONTENTS, READONLY
+  5 .debug_aranges 00000038  00000000  00000000  00000318  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  6 .debug_info   000007c5  00000000  00000000  00000350  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  7 .debug_abbrev 00000594  00000000  00000000  00000b15  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  8 .debug_line   000003a5  00000000  00000000  000010a9  2**0
+                  CONTENTS, READONLY, DEBUGGING
+  9 .debug_frame  00000054  00000000  00000000  00001450  2**2
+                  CONTENTS, READONLY, DEBUGGING
+ 10 .debug_str    0000033f  00000000  00000000  000014a4  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 11 .debug_loc    0000004c  00000000  00000000  000017e3  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 12 .debug_ranges 00000028  00000000  00000000  0000182f  2**0
+                  CONTENTS, READONLY, DEBUGGING
+
+Disassembly of section .text:
+
+00000000 <__vectors>:
+   0:	0c 94 2a 00 	jmp	0x54	; 0x54 <__ctors_end>
+   4:	0c 94 47 00 	jmp	0x8e	; 0x8e <__bad_interrupt>
+   8:	0c 94 47 00 	jmp	0x8e	; 0x8e <__bad_interrupt>
+   c:	0c 94 47 00 	jmp	0x8e	; 0x8e <__bad_interrupt>
+  10:	0c 94 47 00 	jmp	0x8e	; 0x8e <__bad_interrupt>
+  14:	0c 94 47 00 	jmp	0x8e	; 0x8e <__bad_interrupt>
+  18:	0c 94 47 00 	jmp	0x8e	; 0x8e <__bad_interrupt>
+  1c:	0c 94 47 00 	jmp	0x8e	; 0x8e <__bad_interrupt>
+  20:	0c 94 47 00 	jmp	0x8e	; 0x8e <__bad_interrupt>
+  24:	0c 94 47 00 	jmp	0x8e	; 0x8e <__bad_interrupt>
+  28:	0c 94 47 00 	jmp	0x8e	; 0x8e <__bad_interrupt>
+  2c:	0c 94 47 00 	jmp	0x8e	; 0x8e <__bad_interrupt>
+  30:	0c 94 47 00 	jmp	0x8e	; 0x8e <__bad_interrupt>
+  34:	0c 94 47 00 	jmp	0x8e	; 0x8e <__bad_interrupt>
+  38:	0c 94 47 00 	jmp	0x8e	; 0x8e <__bad_interrupt>
+  3c:	0c 94 47 00 	jmp	0x8e	; 0x8e <__bad_interrupt>
+  40:	0c 94 47 00 	jmp	0x8e	; 0x8e <__bad_interrupt>
+  44:	0c 94 47 00 	jmp	0x8e	; 0x8e <__bad_interrupt>
+  48:	0c 94 47 00 	jmp	0x8e	; 0x8e <__bad_interrupt>
+  4c:	0c 94 47 00 	jmp	0x8e	; 0x8e <__bad_interrupt>
+  50:	0c 94 47 00 	jmp	0x8e	; 0x8e <__bad_interrupt>
+
+00000054 <__ctors_end>:
+  54:	11 24       	eor	r1, r1
+  56:	1f be       	out	0x3f, r1	; 63
+  58:	cf e5       	ldi	r28, 0x5F	; 95
+  5a:	d8 e0       	ldi	r29, 0x08	; 8
+  5c:	de bf       	out	0x3e, r29	; 62
+  5e:	cd bf       	out	0x3d, r28	; 61
+
+00000060 <__do_copy_data>:
+  60:	10 e0       	ldi	r17, 0x00	; 0
+  62:	a0 e6       	ldi	r26, 0x60	; 96
+  64:	b0 e0       	ldi	r27, 0x00	; 0
+  66:	e6 e1       	ldi	r30, 0x16	; 22
+  68:	f2 e0       	ldi	r31, 0x02	; 2
+  6a:	02 c0       	rjmp	.+4      	; 0x70 <__do_copy_data+0x10>
+  6c:	05 90       	lpm	r0, Z+
+  6e:	0d 92       	st	X+, r0
+  70:	a2 36       	cpi	r26, 0x62	; 98
+  72:	b1 07       	cpc	r27, r17
+  74:	d9 f7       	brne	.-10     	; 0x6c <__do_copy_data+0xc>
+
+00000076 <__do_clear_bss>:
+  76:	20 e0       	ldi	r18, 0x00	; 0
+  78:	a2 e6       	ldi	r26, 0x62	; 98
+  7a:	b0 e0       	ldi	r27, 0x00	; 0
+  7c:	01 c0       	rjmp	.+2      	; 0x80 <.do_clear_bss_start>
+
+0000007e <.do_clear_bss_loop>:
+  7e:	1d 92       	st	X+, r1
+
+00000080 <.do_clear_bss_start>:
+  80:	a4 36       	cpi	r26, 0x64	; 100
+  82:	b2 07       	cpc	r27, r18
+  84:	e1 f7       	brne	.-8      	; 0x7e <.do_clear_bss_loop>
+  86:	0e 94 bd 00 	call	0x17a	; 0x17a <main>
+  8a:	0c 94 09 01 	jmp	0x212	; 0x212 <_exit>
+
+0000008e <__bad_interrupt>:
+  8e:	0c 94 00 00 	jmp	0	; 0x0 <__vectors>
+
+00000092 <init_motors>:
+ *	when up-counting and is set on compare match when down-counting.
+ */
+void init_motors()
+{
+	//Configure PWM pins OCR0 and OCR2 to output mode
+    DDRD |= (1<<PIND7);
+  92:	8f 9a       	sbi	0x11, 7	; 17
+	DDRB |= (1<<PINB3);
+  94:	bb 9a       	sbi	0x17, 3	; 23
+	
+	//Configure motor direction control pins to output mode
+	DDRC |= (1<<PINC0) | (1<<PINC1) | (1<<PINC6) | (1<<PINC7);
+  96:	84 b3       	in	r24, 0x14	; 20
+  98:	83 6c       	ori	r24, 0xC3	; 195
+  9a:	84 bb       	out	0x14, r24	; 20
+	
+	//set phase correct PWM, NON inverting mode and set a pre scalar of 64
+	TCCR0 |= (1<<WGM00) | (1<<COM01) | (1<<CS00) | (1<<CS01);
+  9c:	83 b7       	in	r24, 0x33	; 51
+  9e:	83 66       	ori	r24, 0x63	; 99
+  a0:	83 bf       	out	0x33, r24	; 51
+	TCCR2 |= (1<<COM21) | (1<<WGM20) | (1<<CS22) ;	
+  a2:	85 b5       	in	r24, 0x25	; 37
+  a4:	84 66       	ori	r24, 0x64	; 100
+  a6:	85 bd       	out	0x25, r24	; 37
+	
+	//Sets TOP value to be 250
+	TCNT0 = 250;
+  a8:	8a ef       	ldi	r24, 0xFA	; 250
+  aa:	82 bf       	out	0x32, r24	; 50
+	TCNT2 = 250;
+  ac:	84 bd       	out	0x24, r24	; 36
+  ae:	08 95       	ret
+
+000000b0 <set_motors>:
+ *	of the arguments can range from -250 to +250. A negative sign
+ *	is used when the direction of the motor is to be reversed.
+ */
+void set_motors(int leftMotorSpeed, int rightMotorSpeed)
+{
+    if(leftMotorSpeed >= 0)
+  b0:	99 23       	and	r25, r25
+  b2:	24 f0       	brlt	.+8      	; 0xbc <set_motors+0xc>
+    {
+        leftMotorPWMPin = leftMotorSpeed;
+  b4:	8c bf       	out	0x3c, r24	; 60
+		PORTC |= (1<<PINC0);
+  b6:	a8 9a       	sbi	0x15, 0	; 21
+		PORTC &= ~(1<<PINC1); //SET THE MOTOR TO ROTATE IN THE FORWARD DIRECTION.
+  b8:	a9 98       	cbi	0x15, 1	; 21
+  ba:	04 c0       	rjmp	.+8      	; 0xc4 <set_motors+0x14>
+    }
+    else
+    {
+        leftMotorPWMPin = -leftMotorSpeed;
+  bc:	81 95       	neg	r24
+  be:	8c bf       	out	0x3c, r24	; 60
+       	PORTC |= (1<<PINC1);
+  c0:	a9 9a       	sbi	0x15, 1	; 21
+       	PORTC &= ~(1<<PINC0);	//SET THE MOTOR TO ROTATE IN THE OPPOSITE DIRECTION.
+  c2:	a8 98       	cbi	0x15, 0	; 21
+    }
+
+	if(rightMotorSpeed >= 0)
+  c4:	77 23       	and	r23, r23
+  c6:	24 f0       	brlt	.+8      	; 0xd0 <set_motors+0x20>
+    {
+        rightMotorPWMPin = rightMotorSpeed;
+  c8:	63 bd       	out	0x23, r22	; 35
+       	PORTC |= (1<<PINC6);
+  ca:	ae 9a       	sbi	0x15, 6	; 21
+       	PORTC &= ~(1<<PINC7); //SET THE MOTOR TO ROTATE IN THE FORWARD DIRECTION.
+  cc:	af 98       	cbi	0x15, 7	; 21
+  ce:	08 95       	ret
+    }
+    else
+    {
+        rightMotorPWMPin = -rightMotorSpeed;
+  d0:	61 95       	neg	r22
+  d2:	63 bd       	out	0x23, r22	; 35
+        PORTC |= (1<<PINC7);
+  d4:	af 9a       	sbi	0x15, 7	; 21
+        PORTC &= ~(1<<PINC6); //SET THE MOTOR TO ROTATE IN THE OPPOSITE DIRECTION.
+  d6:	ae 98       	cbi	0x15, 6	; 21
+  d8:	08 95       	ret
+
+000000da <line_follower>:
+
+void line_follower()
+{
+	while(1)
+	{
+		sensors = PINA;
+  da:	89 b3       	in	r24, 0x19	; 25
+  dc:	80 93 63 00 	sts	0x0063, r24	; 0x800063 <sensors>
+		
+		//GO STRAIGHT
+		if (sensors == 0b00011011)
+  e0:	8b 31       	cpi	r24, 0x1B	; 27
+  e2:	39 f4       	brne	.+14     	; 0xf2 <line_follower+0x18>
+		{
+			set_motors(MAXSPEED,MAXSPEED);
+  e4:	66 e4       	ldi	r22, 0x46	; 70
+  e6:	70 e0       	ldi	r23, 0x00	; 0
+  e8:	86 e4       	ldi	r24, 0x46	; 70
+  ea:	90 e0       	ldi	r25, 0x00	; 0
+  ec:	0e 94 58 00 	call	0xb0	; 0xb0 <set_motors>
+  f0:	f4 cf       	rjmp	.-24     	; 0xda <line_follower>
+		}
+		
+		else if(sensors == 0b00010001)
+  f2:	81 31       	cpi	r24, 0x11	; 17
+  f4:	39 f4       	brne	.+14     	; 0x104 <line_follower+0x2a>
+		{
+			set_motors(MAXSPEED,MAXSPEED);
+  f6:	66 e4       	ldi	r22, 0x46	; 70
+  f8:	70 e0       	ldi	r23, 0x00	; 0
+  fa:	86 e4       	ldi	r24, 0x46	; 70
+  fc:	90 e0       	ldi	r25, 0x00	; 0
+  fe:	0e 94 58 00 	call	0xb0	; 0xb0 <set_motors>
+ 102:	eb cf       	rjmp	.-42     	; 0xda <line_follower>
+			//set_motors(0,0);
+		}
+		
+		else if ((sensors == 0b00000000) || (sensors == 0b00011111))
+ 104:	88 23       	and	r24, r24
+ 106:	11 f0       	breq	.+4      	; 0x10c <line_follower+0x32>
+ 108:	8f 31       	cpi	r24, 0x1F	; 31
+ 10a:	31 f4       	brne	.+12     	; 0x118 <line_follower+0x3e>
+		{
+			locationIdentifier++;
+ 10c:	80 91 62 00 	lds	r24, 0x0062	; 0x800062 <__data_end>
+ 110:	8f 5f       	subi	r24, 0xFF	; 255
+ 112:	80 93 62 00 	sts	0x0062, r24	; 0x800062 <__data_end>
+			//set_motors(ROTATESPEED,-ROTATESPEED);
+			//PORTB &= ~(1<<PINB0);
+		}
+	}
+	
+}
+ 116:	08 95       	ret
+			break;
+		}
+		
+		//RIGHT TURN
+		
+		else if((sensors == 0b00000001) || (sensors == 0b00000011) || (sensors == 0b00000111) || (sensors == 0b00001111) || (sensors == 0b00000101))
+ 118:	98 2f       	mov	r25, r24
+ 11a:	9d 7f       	andi	r25, 0xFD	; 253
+ 11c:	91 30       	cpi	r25, 0x01	; 1
+ 11e:	21 f0       	breq	.+8      	; 0x128 <line_follower+0x4e>
+ 120:	8f 30       	cpi	r24, 0x0F	; 15
+ 122:	11 f0       	breq	.+4      	; 0x128 <line_follower+0x4e>
+ 124:	95 30       	cpi	r25, 0x05	; 5
+ 126:	39 f4       	brne	.+14     	; 0x136 <line_follower+0x5c>
+		{
+			set_motors(TURNSPEED,-ROTATESPEED);
+ 128:	6a eb       	ldi	r22, 0xBA	; 186
+ 12a:	7f ef       	ldi	r23, 0xFF	; 255
+ 12c:	84 e6       	ldi	r24, 0x64	; 100
+ 12e:	90 e0       	ldi	r25, 0x00	; 0
+ 130:	0e 94 58 00 	call	0xb0	; 0xb0 <set_motors>
+ 134:	d2 cf       	rjmp	.-92     	; 0xda <line_follower>
+		}
+		
+		//SLIGHT RIGHT TURN
+		else if((sensors == 0b00010011) || (sensors == 0b00010111))
+ 136:	98 2f       	mov	r25, r24
+ 138:	9b 7f       	andi	r25, 0xFB	; 251
+ 13a:	93 31       	cpi	r25, 0x13	; 19
+ 13c:	39 f4       	brne	.+14     	; 0x14c <line_follower+0x72>
+		{
+			set_motors(MAXSPEED,(0.5*MAXSPEED));
+ 13e:	63 e2       	ldi	r22, 0x23	; 35
+ 140:	70 e0       	ldi	r23, 0x00	; 0
+ 142:	86 e4       	ldi	r24, 0x46	; 70
+ 144:	90 e0       	ldi	r25, 0x00	; 0
+ 146:	0e 94 58 00 	call	0xb0	; 0xb0 <set_motors>
+ 14a:	c7 cf       	rjmp	.-114    	; 0xda <line_follower>
+		}
+		
+		//LEFT TURN
+		else if((sensors == 0b00010000) || (sensors == 0b00011000) || (sensors == 0b00011100) || (sensors == 0b00011110) || (sensors == 0b00010100))
+ 14c:	90 31       	cpi	r25, 0x10	; 16
+ 14e:	21 f0       	breq	.+8      	; 0x158 <line_follower+0x7e>
+ 150:	98 31       	cpi	r25, 0x18	; 24
+ 152:	11 f0       	breq	.+4      	; 0x158 <line_follower+0x7e>
+ 154:	8e 31       	cpi	r24, 0x1E	; 30
+ 156:	39 f4       	brne	.+14     	; 0x166 <line_follower+0x8c>
+		{
+			set_motors(-ROTATESPEED,TURNSPEED);
+ 158:	64 e6       	ldi	r22, 0x64	; 100
+ 15a:	70 e0       	ldi	r23, 0x00	; 0
+ 15c:	8a eb       	ldi	r24, 0xBA	; 186
+ 15e:	9f ef       	ldi	r25, 0xFF	; 255
+ 160:	0e 94 58 00 	call	0xb0	; 0xb0 <set_motors>
+ 164:	ba cf       	rjmp	.-140    	; 0xda <line_follower>
+		}
+		
+		//SLIGHT LEFT TURN
+		else if((sensors == 0b00011001) || (sensors == 0b00011101))
+ 166:	99 31       	cpi	r25, 0x19	; 25
+ 168:	09 f0       	breq	.+2      	; 0x16c <line_follower+0x92>
+ 16a:	b7 cf       	rjmp	.-146    	; 0xda <line_follower>
+		{
+			set_motors((0.5*MAXSPEED),MAXSPEED);
+ 16c:	66 e4       	ldi	r22, 0x46	; 70
+ 16e:	70 e0       	ldi	r23, 0x00	; 0
+ 170:	83 e2       	ldi	r24, 0x23	; 35
+ 172:	90 e0       	ldi	r25, 0x00	; 0
+ 174:	0e 94 58 00 	call	0xb0	; 0xb0 <set_motors>
+ 178:	b0 cf       	rjmp	.-160    	; 0xda <line_follower>
+
+0000017a <main>:
+char location = 3;
+char locationIdentifier = 0;
+
+int main(void)
+{
+	DDRA = 0xE0;
+ 17a:	80 ee       	ldi	r24, 0xE0	; 224
+ 17c:	8a bb       	out	0x1a, r24	; 26
+	init_motors();
+ 17e:	0e 94 49 00 	call	0x92	; 0x92 <init_motors>
+		{
+			if(location == 0)
+				{}
+			else if ((location == 1) && (locationIdentifier = 1))
+				set_motors(TURNSPEED,-ROTATESPEED);
+			else if (((location == 2) || (location == 3)) && (locationIdentifier = 1)) // left turn
+ 182:	c1 e0       	ldi	r28, 0x01	; 1
+	DDRA = 0xE0;
+	init_motors();
+	
+	while(1)
+	{
+		sensors = PINA;
+ 184:	89 b3       	in	r24, 0x19	; 25
+ 186:	80 93 63 00 	sts	0x0063, r24	; 0x800063 <sensors>
+			
+		if (sensors == 0b00000000)
+ 18a:	81 11       	cpse	r24, r1
+ 18c:	07 c0       	rjmp	.+14     	; 0x19c <main+0x22>
+			else if ((location == 2) && (locationIdentifier = 2))
+				set_motors(TURNSPEED,-ROTATESPEED);
+			else if ((location == 3) && (locationIdentifier = 2))
+				set_motors(-ROTATESPEED,TURNSPEED);	
+			*/
+			set_motors(MAXSPEED,MAXSPEED);
+ 18e:	66 e4       	ldi	r22, 0x46	; 70
+ 190:	70 e0       	ldi	r23, 0x00	; 0
+ 192:	86 e4       	ldi	r24, 0x46	; 70
+ 194:	90 e0       	ldi	r25, 0x00	; 0
+ 196:	0e 94 58 00 	call	0xb0	; 0xb0 <set_motors>
+ 19a:	f4 cf       	rjmp	.-24     	; 0x184 <main+0xa>
+		}
+		
+		else if (sensors == 0b00011111)
+ 19c:	8f 31       	cpi	r24, 0x1F	; 31
+ 19e:	b1 f5       	brne	.+108    	; 0x20c <main+0x92>
+		{
+			if(location == 0)
+ 1a0:	80 91 60 00 	lds	r24, 0x0060	; 0x800060 <__data_start>
+ 1a4:	88 23       	and	r24, r24
+ 1a6:	71 f3       	breq	.-36     	; 0x184 <main+0xa>
+				{}
+			else if ((location == 1) && (locationIdentifier = 1))
+ 1a8:	81 30       	cpi	r24, 0x01	; 1
+ 1aa:	49 f4       	brne	.+18     	; 0x1be <main+0x44>
+ 1ac:	c0 93 62 00 	sts	0x0062, r28	; 0x800062 <__data_end>
+				set_motors(TURNSPEED,-ROTATESPEED);
+ 1b0:	6a eb       	ldi	r22, 0xBA	; 186
+ 1b2:	7f ef       	ldi	r23, 0xFF	; 255
+ 1b4:	84 e6       	ldi	r24, 0x64	; 100
+ 1b6:	90 e0       	ldi	r25, 0x00	; 0
+ 1b8:	0e 94 58 00 	call	0xb0	; 0xb0 <set_motors>
+ 1bc:	e3 cf       	rjmp	.-58     	; 0x184 <main+0xa>
+			else if (((location == 2) || (location == 3)) && (locationIdentifier = 1)) // left turn
+ 1be:	9e ef       	ldi	r25, 0xFE	; 254
+ 1c0:	98 0f       	add	r25, r24
+ 1c2:	92 30       	cpi	r25, 0x02	; 2
+ 1c4:	48 f4       	brcc	.+18     	; 0x1d8 <main+0x5e>
+ 1c6:	c0 93 62 00 	sts	0x0062, r28	; 0x800062 <__data_end>
+				set_motors(-ROTATESPEED,TURNSPEED);
+ 1ca:	64 e6       	ldi	r22, 0x64	; 100
+ 1cc:	70 e0       	ldi	r23, 0x00	; 0
+ 1ce:	8a eb       	ldi	r24, 0xBA	; 186
+ 1d0:	9f ef       	ldi	r25, 0xFF	; 255
+ 1d2:	0e 94 58 00 	call	0xb0	; 0xb0 <set_motors>
+ 1d6:	d6 cf       	rjmp	.-84     	; 0x184 <main+0xa>
+				
+			else if ((location == 2) && (locationIdentifier != 1))
+ 1d8:	82 30       	cpi	r24, 0x02	; 2
+ 1da:	59 f4       	brne	.+22     	; 0x1f2 <main+0x78>
+ 1dc:	80 91 62 00 	lds	r24, 0x0062	; 0x800062 <__data_end>
+ 1e0:	81 30       	cpi	r24, 0x01	; 1
+ 1e2:	81 f2       	breq	.-96     	; 0x184 <main+0xa>
+				set_motors(TURNSPEED,-ROTATESPEED);
+ 1e4:	6a eb       	ldi	r22, 0xBA	; 186
+ 1e6:	7f ef       	ldi	r23, 0xFF	; 255
+ 1e8:	84 e6       	ldi	r24, 0x64	; 100
+ 1ea:	90 e0       	ldi	r25, 0x00	; 0
+ 1ec:	0e 94 58 00 	call	0xb0	; 0xb0 <set_motors>
+ 1f0:	c9 cf       	rjmp	.-110    	; 0x184 <main+0xa>
+			else if ((location == 3) && (locationIdentifier != 1))
+ 1f2:	83 30       	cpi	r24, 0x03	; 3
+ 1f4:	39 f6       	brne	.-114    	; 0x184 <main+0xa>
+ 1f6:	80 91 62 00 	lds	r24, 0x0062	; 0x800062 <__data_end>
+ 1fa:	81 30       	cpi	r24, 0x01	; 1
+ 1fc:	19 f2       	breq	.-122    	; 0x184 <main+0xa>
+				set_motors(-ROTATESPEED,TURNSPEED);
+ 1fe:	64 e6       	ldi	r22, 0x64	; 100
+ 200:	70 e0       	ldi	r23, 0x00	; 0
+ 202:	8a eb       	ldi	r24, 0xBA	; 186
+ 204:	9f ef       	ldi	r25, 0xFF	; 255
+ 206:	0e 94 58 00 	call	0xb0	; 0xb0 <set_motors>
+ 20a:	bc cf       	rjmp	.-136    	; 0x184 <main+0xa>
+		}
+	
+		else
+		{
+			line_follower();
+ 20c:	0e 94 6d 00 	call	0xda	; 0xda <line_follower>
+ 210:	b9 cf       	rjmp	.-142    	; 0x184 <main+0xa>
+
+00000212 <_exit>:
+ 212:	f8 94       	cli
+
+00000214 <__stop_program>:
+ 214:	ff cf       	rjmp	.-2      	; 0x214 <__stop_program>
