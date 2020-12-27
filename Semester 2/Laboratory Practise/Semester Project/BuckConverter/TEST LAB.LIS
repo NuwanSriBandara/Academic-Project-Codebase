@@ -1,0 +1,53 @@
+AutoECO Report
+FILE-A: C:\USERS\HP\DOCUMENTS\TEST LAB.MAX
+FILE-B: C:\USERS\HP\DOCUMENTS\TEST LAB..MNL
+If "*EOF*" immediately follows, no changes were made
+Adding package CAP
+Adding package INDUCTOR
+Adding package DIODE_ZENER
+Adding package LM2596T-ADJ
+Adding component L1
+Adding component L2
+Adding component D1
+Adding component U1
+Net N00976 renamed to N00530
+Net N00916 renamed to N00557
+Adding net N00477
+Adding net N00339
+Net N00739 renamed to N00618
+Deleting R1.2 from net 0
+Deleting R7.2 from net 0
+Deleting R8.2 from net 0
+Adding R2.2 to net 0
+Adding C3.2 to net 0
+Adding C1.2 to net 0
+Adding D1.1 to net 0
+Adding U1.5 to net 0
+Adding U1.3 to net 0
+Deleting R6.1 from net N00618
+Deleting C1.1 from net N00618
+Deleting BT1.1 from net N00618
+Adding R1.2 to net N00618
+Adding U1.4 to net N00618
+Deleting R6.2 from net N00557
+Deleting Q2.2 from net N00557
+Adding L2.2 to net N00557
+Deleting Q2.3 from net N00530
+Adding L1.2 to net N00530
+Adding L2.1 to net N00530
+Adding U1.2 to net N00477
+Adding D1.2 to net N00477
+Adding L1.1 to net N00477
+Adding BT1.1 to net N00339
+Adding U1.1 to net N00339
+Adding C1.1 to net N00339
+Deleting component R8
+Deleting component R7
+Deleting component R6
+Deleting component Q2
+Deleting component Q1
+Deleting net N01095
+Deleting net N00945
+Deleting net N00794
+*EOF*
+No errors found
