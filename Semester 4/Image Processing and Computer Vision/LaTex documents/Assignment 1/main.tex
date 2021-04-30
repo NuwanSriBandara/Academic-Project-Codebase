@@ -1,0 +1,341 @@
+
+
+%\documentclass[12pt]{article}
+\documentclass[11pt]{scrartcl}
+\title{EN2550_Assignment1}
+\nonstopmode
+%\usepackage[utf-8]{inputenc}
+\usepackage{graphicx} % Required for including pictures
+\usepackage[figurename=Figure]{caption}
+\usepackage{float}    % For tables and other floats
+\usepackage{verbatim} % For comments and other
+\usepackage{amsmath}  % For math
+\usepackage{amssymb}  % For more math
+\usepackage{fullpage} % Set margins and place page numbers at bottom center
+\usepackage{subcaption}
+\usepackage{paralist} % paragraph spacing
+\usepackage{listings} % For source code
+\usepackage{subfig}   % For subfigures
+%\usepackage{physics}  % for simplified dv, and 
+\usepackage{enumitem} % useful for itemization
+\usepackage{siunitx}  % standardization of si units
+\usepackage{hyperref}
+\usepackage{tikz,bm} % Useful for drawing plots
+%\usepackage{tikz-3dplot}
+\usepackage{circuitikz}
+
+%%% Colours used in field vectors and propagation direction
+\definecolor{mycolor}{rgb}{1,0.2,0.3}
+\definecolor{brightgreen}{rgb}{0.4, 1.0, 0.0}
+\definecolor{britishracinggreen}{rgb}{0.0, 0.26, 0.15}
+\definecolor{cadmiumgreen}{rgb}{0.0, 0.42, 0.24}
+\definecolor{ceruleanblue}{rgb}{0.16, 0.32, 0.75}
+\definecolor{darkelectricblue}{rgb}{0.33, 0.41, 0.47}
+\definecolor{darkpowderblue}{rgb}{0.0, 0.2, 0.6}
+\definecolor{darktangerine}{rgb}{1.0, 0.66, 0.07}
+\definecolor{emerald}{rgb}{0.31, 0.78, 0.47}
+\definecolor{palatinatepurple}{rgb}{0.41, 0.16, 0.38}
+\definecolor{pastelviolet}{rgb}{0.8, 0.6, 0.79}
+\begin{document}
+
+\begin{center}
+	\hrule
+	\vspace{.4cm}
+	{\textbf { \large EN2550 --- Fundamentals of Image Processing and Machine Vision}}
+\end{center}
+{\textbf{Student Name:}\ Nuwan Bandara \hspace{\fill} \textbf{Submitted Date:} March 2, 2021   \\
+{ \textbf{Student Number:}} \ 180066F \hspace{\fill} \textbf{Assignment Number:} 1 \\
+	\hrule
+
+
+\paragraph*{Problem 1} %\hfill \newline
+Execution of defined primary operations on the selected image: given img01.png  
+
+\bigskip
+
+The initial task is to display the selected image using Python OpenCV and matplotlib libraries. Here, it is essential to consider the input color format of each library since OpenCV utilizes BGR format while matplotlib implements RGB format.
+
+Entire code flow is executed and accessed on the Google Colaboratory platform (Colab) via, \\ 
+\textbf{\url{https://colab.research.google.com/drive/1PDDkABUmk4vBPT--yPF9T3t8Pep9EQdS?usp=sharing}}
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.6\textwidth]{Img1.PNG}
+    \caption{Python code for displaying the selected using using necessary libraries}
+    \label{fig: PaleBlueDot}    
+\end{figure}
+\begin{enumerate}[label=(\alph*)]
+\item Histogram computation. \newline
+In the image processing, a histogram represents the intensity distribution over a defined range of intensities of an image. The inbuilt function, \textit{calchist} has been utilized for this purpose which gets the image, channels, mask, histogram size and ranges as its inputs.
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.4\textwidth]{Img2.PNG}
+    \caption{Histogram representation of im01.png with corresponding python implementation}
+    \label{fig: PaleBlueDot}    
+\end{figure}
+
+\item Histogram equalization. Show the histogram before and after. \newline
+Histogram equalization is considered as a gray-level transformation that results in an image with a more or less flat histogram. The main in-buit function for histogram equalization is \textit{equalizeHist} which takes a gray-level image as the input.
+\begin{figure}
+\centering
+\begin{subfigure}{.5\textwidth}
+  \centering
+  \includegraphics[width=.4\linewidth]{Img3.PNG}
+  \caption{Histogram of the selected gray-scaled image}
+  \label{fig:sub1}
+\end{subfigure}%
+\begin{subfigure}{0.5\textwidth}
+  \centering
+  \includegraphics[width=.4\linewidth]{Img4.PNG}
+  \caption{Histogram of the equalized image}
+  \label{fig:sub2}
+\end{subfigure}
+\begin{subfigure}{0.6\textwidth}
+  \centering
+  \includegraphics[width=.7\linewidth]{Img5.PNG}
+  \caption{Results comparison}
+  \label{fig:sub2}
+\end{subfigure}
+\caption{Histogram equalization}
+\label{fig:test}
+\end{figure}
+\item Intensity transformations. Show the transformation function as well. \newline
+Intensity transformation is an image processing technique in which the output is only dependant on the input value such that $g(x)=T(f(x)$. Here, three different transformations have been implemented: Identity ($g(x)=f(x)$), Negative ($g(x)=-f(x)$) and Intensity windowing with,
+\begin{equation}
+    g(x) = 
+    \begin{cases}
+    \frac{5}{101}f(x) & \text{if 0 to 100}\\
+    \frac{49}{10}f(x) & \text{if 101 to 150}\\
+    \frac{1}{21}f(x)+200-\frac{50}{7} & \text{if 151 to 255}
+    \end{cases}
+\end{equation}
+\item Gamma correction. State ${\mathbf{\gamma}}$.\newline
+This is a power-law transformation with $\gamma=3 $ which satisfies $g = f^\gamma \hspace{0.25cm}(f \in (0,1))$
+
+\item Gaussian smoothing. State kernel size and ${\mathbf{\sigma}}$. \newline
+Inbuilt \textit{GaussianBlur} is implemented using the kernel size of (1211,1211) (for better observation of blurring effect) with equal $\sigma$ value of 5. This smoothing technique is very effective in images which has more Gaussian noise.
+\item Unsharp masking. \newline
+This is implmented using \textit{addWeighted} function (input parameters of $\alpha$ and $\beta$ for adding two images weightedly) along with \textit{GaussianBlur} inbuilt function.
+\item Median filtering. State kernel size.\newline
+The median filter operates over a window by selecting the median intensity in the window. \textit{medianBlur} is utilized with a kernel size of (11,11). This is considered to be highly effective against salt-and-pepper noise in an image.
+\begin{figure}
+\centering
+\begin{subfigure}{.5\textwidth}
+  \centering
+  \includegraphics[width=.9\linewidth]{Img6.PNG}
+  \caption{After intensity windowing (gray image)}
+  \label{fig:sub1}
+\end{subfigure}%
+\begin{subfigure}{0.5\textwidth}
+  \centering
+  \includegraphics[width=.9\linewidth]{Img7.PNG}
+  \caption{After gamma correction}
+  \label{fig:sub2}
+\end{subfigure}
+\caption{Result image comparison}
+\label{fig:test}
+\end{figure}
+\item Bilateral filtering. Explain the theory of this as well.\newline
+Bilateral filtering is highly efficient in removing the noises in the images while keeping the edges of those images undisturbed (not loosing its sharp edges). This unique capability of bilateral filter has been obtained through two Gaussian filter: Gaussian filter in space and the Gaussian filter which is a function of pixel difference, such that, the Gaussian function of space ensures that only nearby pixels are considered for blurring, while the Gaussian function of intensity difference ensures that only those pixels with similar intensities to the central pixel are considered for blurring. This manipulates the preserving of edges since the pixels at the edges have large intensity variation.
+
+The inbuilt \textit{bilateralFilter} gets several input arguments such as source image, destination image, diameter of each pixel neighbourhood, standard deviations in the color space and the coordinate space to execute this filtering.
+\begin{figure}
+\centering
+\begin{subfigure}{.5\textwidth}
+  \centering
+  \includegraphics[width=.7\linewidth]{Img8.PNG}
+  \caption{After Gaussian smoothing}
+  \label{fig:sub1}
+\end{subfigure}%
+\begin{subfigure}{0.5\textwidth}
+  \centering
+  \includegraphics[width=.7\linewidth]{Img9.PNG}
+  \caption{After unsharp masking with $\alpha = 1.5$ and $\beta = -0.5$}
+  \label{fig:sub2}
+\end{subfigure}
+\begin{subfigure}{0.5\textwidth}
+  \centering
+  \includegraphics[width=.6\linewidth]{Img10.PNG}
+  \caption{After median filtering with kernel (11,11)}
+  \label{fig:sub2}
+\end{subfigure}
+\caption{Result images after filtering}
+\label{fig:test}
+\end{figure}
+\end{enumerate}
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.6\textwidth]{Img11.PNG}
+    \caption{Result image after bilateral filtering}
+    \label{fig: PaleBlueDot}    
+\end{figure}
+
+
+\paragraph*{Problem 2}
+Count the rice grains in the rice image (given). Show the components (after connected-component analysis) using a color map.
+
+This task highlights the importance of segmentation where important distinct values are extracted such that each value represents a meaningful object. In here, rice.png (rice image) introduces two meaningful regions: the group of pixels belong to rice grains and the group of pixels belongs to the background. Therefore, a suitable approach for the above task is to attempt via binary segmentation in which the input gray scale is transformed into pure black and white image such that white regions belongs to rice gains and the black region to the background.
+
+Binary segmentation could be executed via OpenCV in-built \textit{threshold} function where the threshold value (here, 127), threshold type (here, THRESH\_BINARY since this is a binary segmentation task) and the maximum value to be used with thresholding type (here, 255) to be inserted as the input arguments. Howsover, this fixed threshold value method does not facilitate the optimum segmentation since some of the rice gains are also marked as black in the output image. 
+
+Therefore, there is an essential need for optimizing the value of threshold in different areas of the image as per the distribution of pixel shades within a limited rectangular region surrounding the pixel. Local adaptive threshold (with adaptive type: ADAPTIVE\_THRESH\_MEAN\_C and threshold type: THRESH\_BINARY and block size: 51) is a suitable candidate for this task since it evaluates a statistically suitable threshold for each pixel. 
+
+Even after local adaptive thresholding, there exists some outlying specks that need to be removed. For this, \textit{erode} is used with a rectangular operator (5,5). Finally, connected-component analysis is executed using \textit{for} loops and the results show that there exists \textbf{102} rice grains in the image.
+
+Eventually, a contour detection logic (using \textit{findContours} with contour retrieval mode: 
+\\RETR\_EXTERNAL and contour approximation method: CHAIN\_APPROX\_SIMPLE) is executed in order to identify the foreground\/background boarders to encode the external contour shape until the borders of all foreground objects are covered. This ensures that the number of unique external contours detected is same as the number of grains of rice.
+
+\begin{figure}
+\centering
+\begin{subfigure}{.5\textwidth}
+  \centering
+  \includegraphics[width=.6\linewidth]{Img17.PNG}
+  \caption{Fixed threshold method}
+  \label{fig:sub1}
+\end{subfigure}%
+\begin{subfigure}{0.5\textwidth}
+  \centering
+  \includegraphics[width=.6\linewidth]{Img18.PNG}
+  \caption{Local adaptive threshold method}
+  \label{fig:sub2}
+\end{subfigure}
+\caption{Python implementations of threshold methods}
+\label{fig:test}
+\end{figure}
+\begin{figure}
+\centering
+\begin{subfigure}{.5\textwidth}
+  \centering
+  \includegraphics[width=.5\linewidth]{Img13.PNG}
+  \caption{After fixed thesholding}
+  \label{fig:sub1}
+\end{subfigure}%
+\begin{subfigure}{0.5\textwidth}
+  \centering
+  \includegraphics[width=.5\linewidth]{Img14.PNG}
+  \caption{After local adaptive thresholding}
+  \label{fig:sub2}
+\end{subfigure}
+\caption{Result images after thresholding}
+\label{fig:test}
+\end{figure}
+
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=0.5\textwidth]{Img19.PNG}
+    \caption{Results after connected-component analysis}
+    \label{fig: PaleBlueDot}    
+\end{figure}
+
+\begin{figure}
+\centering
+\begin{subfigure}{.5\textwidth}
+  \centering
+  \includegraphics[width=.5\linewidth]{Img15.PNG}
+  \caption{After morphological erosion}
+  \label{fig:sub1}
+\end{subfigure}%
+\begin{subfigure}{0.5\textwidth}
+  \centering
+  \includegraphics[width=.5\linewidth]{Img16.PNG}
+  \caption{Output contour image}
+  \label{fig:sub2}
+\end{subfigure}
+\caption{Result images after each stage}
+\label{fig:test}
+\end{figure}
+
+\paragraph*{Problem 3}
+Write a program to zoom images by a given factor in (0,10]. You must use a function to zoom the image, which can handle (by using the included four images, two large originals, and there zoomed-out versions. Test you algorithm by computing the sum of squared difference (SSD) when you scale-up the given small images by a factor of 4 by comparing with the original images):
+\begin{enumerate}[label=(\alph*)]
+
+\begin{figure}
+\centering
+\begin{subfigure}{.5\textwidth}
+  \centering
+  \includegraphics[width=.7\linewidth]{Img28.PNG}
+  \caption{Nearest-neighbour interpolation using for loops}
+  \label{fig:sub1}
+\end{subfigure}%
+\begin{subfigure}{0.5\textwidth}
+  \centering
+  \includegraphics[width=.7\linewidth]{Img22.PNG}
+  \caption{SSD value for im01.png and zoomed version of im01small.png}
+  \label{fig:sub2}
+\end{subfigure}
+\caption{Nearest-neighbour interpolation and SSD}
+\label{fig:test}
+\end{figure}
+
+\item nearest-neighbor \newline
+This is one of the simplest techniques to re\-sample the pixel values present in the input image. This non-adaptive interpolation method utilizes a determination of the "nearest" neighbouring pixel and an assumption of its intensity value. 
+
+Since the task needs to zoom the input image upto 10 (greater than 0), the zooming scale is defined to be (0,10]. Afterwards, the out image size is determined and then each pixel in the output image is "assumed" through the values of the input pixels. The obtained results were compared using the given corresponding large\-scale image by using sum of squared difference (SSD).
+
+
+\begin{figure}
+\centering
+\begin{subfigure}{.5\textwidth}
+  \centering
+  \includegraphics[width=.7\linewidth]{Img21.PNG}
+  \caption{Zoomed im01small.png by scale 4}
+  \label{fig:sub1}
+\end{subfigure}%
+\begin{subfigure}{0.5\textwidth}
+  \centering
+  \includegraphics[width=.7\linewidth]{Img23.PNG}
+  \caption{Zoomed im02small.png and corresponding SSD value}
+  \label{fig:sub2}
+\end{subfigure}
+\caption{Results from nearest-neighbour interpolation}
+\label{fig:test}
+\end{figure}
+
+\newpage
+\item bilinear interpolation \newline
+This is an intuitive algorithm for image resizing which generalizes the linear interpolation. This technique is primarily utilized in many 2-D array resizing occasions and is considered to be performed in various manners such as within for loops and using vectorizations (Ex. numpy implementation). 
+
+As in the nearest-neighbor method, the scale is to be between 0 and 10 and in this method, the pixels of the output image is determined using four nearest pixels of the input corresponding image. The bilinear interpolation could be implemented using for loops which is relatively slow as compared with the other implementation techniques. Here, both for loop implementation and the inbuilt \textit{resize} method have been deployed to interpolate. The deviations from the corresponding large scale image were calculated using SSD same as the earlier utilization. 
+
+\begin{figure}
+\centering
+\begin{subfigure}{.5\textwidth}
+  \centering
+  \includegraphics[width=.7\linewidth]{Img24.PNG}
+  \caption{Foor loop implementation}
+  \label{fig:sub1}
+\end{subfigure}%
+\begin{subfigure}{0.5\textwidth}
+  \centering
+  \includegraphics[width=.7\linewidth]{Img25.PNG}
+  \caption{OpenCV inbuilt resize implementation}
+  \label{fig:sub2}
+\end{subfigure}
+\caption{Different implementation modes for bilinear interpolation}
+\label{fig:test}
+\end{figure}
+
+\begin{figure}
+\centering
+\begin{subfigure}{.5\textwidth}
+  \centering
+  \includegraphics[width=.8\linewidth]{Img26.PNG}
+  \caption{Result zoomed image for im01small.png with SSD}
+  \label{fig:sub1}
+\end{subfigure}%
+\begin{subfigure}{0.5\textwidth}
+  \centering
+  \includegraphics[width=.8\linewidth]{Img27.PNG}
+  \caption{Result zoomed image for im02small.png with SSD}
+  \label{fig:sub2}
+\end{subfigure}
+\caption{Result zoomed images through bilinear interpolation and their corresponding SSD values}
+\label{fig:test}
+\end{figure}
+
+\end{enumerate}
+\end{document}
+
