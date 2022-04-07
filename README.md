@@ -1,2 +1,2 @@
 # Academic Codes in B.Sc. of Biomedical Engineering
-This repo is established on the purpose of delivering the codes of my semester works/academic projects in B.Sc. of Biomedical Engineering at University of Moratuwa, Sri Lanka.
+This repository is developed on the purpose of delivering the algorithmic implementations of my semester works/academic projects in B.Sc. of Biomedical Engineering at University of Moratuwa, Sri Lanka.
