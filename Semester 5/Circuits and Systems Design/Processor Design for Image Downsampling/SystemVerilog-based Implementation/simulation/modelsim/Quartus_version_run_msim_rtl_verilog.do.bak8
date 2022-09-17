@@ -1,0 +1,25 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlog -vlog01compat -work work +incdir+D:/SystemVerilog/processor_design_verilog_latest__/processor_design_verilog/processor_design_verilog.srcs/sources_1/new {D:/SystemVerilog/processor_design_verilog_latest__/processor_design_verilog/processor_design_verilog.srcs/sources_1/new/uart_tx.v}
+vlog -vlog01compat -work work +incdir+D:/SystemVerilog/processor_design_verilog_latest__/processor_design_verilog/processor_design_verilog.srcs/sources_1/new {D:/SystemVerilog/processor_design_verilog_latest__/processor_design_verilog/processor_design_verilog.srcs/sources_1/new/uart_rx.v}
+vlog -vlog01compat -work work +incdir+D:/SystemVerilog/processor_design_verilog_latest__/processor_design_verilog/processor_design_verilog.srcs/sources_1/new {D:/SystemVerilog/processor_design_verilog_latest__/processor_design_verilog/processor_design_verilog.srcs/sources_1/new/uart.v}
+vlog -vlog01compat -work work +incdir+D:/SystemVerilog/processor_design_verilog_latest/processor_design_verilog/processor_design_verilog.srcs/sources_1/new {D:/SystemVerilog/processor_design_verilog_latest/processor_design_verilog/processor_design_verilog.srcs/sources_1/new/top_module.v}
+vlog -vlog01compat -work work +incdir+D:/SystemVerilog/processor_design_verilog_latest/processor_design_verilog/processor_design_verilog.srcs/sources_1/new {D:/SystemVerilog/processor_design_verilog_latest/processor_design_verilog/processor_design_verilog.srcs/sources_1/new/Register_MUX.v}
+vlog -vlog01compat -work work +incdir+D:/SystemVerilog/processor_design_verilog_latest/processor_design_verilog/processor_design_verilog.srcs/sources_1/new {D:/SystemVerilog/processor_design_verilog_latest/processor_design_verilog/processor_design_verilog.srcs/sources_1/new/reg_16bit.v}
+vlog -vlog01compat -work work +incdir+D:/SystemVerilog/processor_design_verilog_latest/processor_design_verilog/processor_design_verilog.srcs/sources_1/new {D:/SystemVerilog/processor_design_verilog_latest/processor_design_verilog/processor_design_verilog.srcs/sources_1/new/processor.v}
+vlog -vlog01compat -work work +incdir+D:/SystemVerilog/processor_design_verilog_latest/processor_design_verilog/processor_design_verilog.srcs/sources_1/new {D:/SystemVerilog/processor_design_verilog_latest/processor_design_verilog/processor_design_verilog.srcs/sources_1/new/PC.v}
+vlog -vlog01compat -work work +incdir+D:/SystemVerilog/processor_design_verilog_latest/processor_design_verilog/processor_design_verilog.srcs/sources_1/new {D:/SystemVerilog/processor_design_verilog_latest/processor_design_verilog/processor_design_verilog.srcs/sources_1/new/IR.v}
+vlog -vlog01compat -work work +incdir+D:/SystemVerilog/processor_design_verilog_latest/processor_design_verilog/processor_design_verilog.srcs/sources_1/new {D:/SystemVerilog/processor_design_verilog_latest/processor_design_verilog/processor_design_verilog.srcs/sources_1/new/Instruction_Rom.v}
+vlog -vlog01compat -work work +incdir+D:/SystemVerilog/processor_design_verilog_latest/processor_design_verilog/processor_design_verilog.srcs/sources_1/new {D:/SystemVerilog/processor_design_verilog_latest/processor_design_verilog/processor_design_verilog.srcs/sources_1/new/DRam_out_select.v}
+vlog -vlog01compat -work work +incdir+D:/SystemVerilog/processor_design_verilog_latest/processor_design_verilog/processor_design_verilog.srcs/sources_1/new {D:/SystemVerilog/processor_design_verilog_latest/processor_design_verilog/processor_design_verilog.srcs/sources_1/new/DRam_in_select.v}
+vlog -vlog01compat -work work +incdir+D:/SystemVerilog/processor_design_verilog_latest/processor_design_verilog/processor_design_verilog.srcs/sources_1/new {D:/SystemVerilog/processor_design_verilog_latest/processor_design_verilog/processor_design_verilog.srcs/sources_1/new/Data_Ram.v}
+vlog -vlog01compat -work work +incdir+D:/SystemVerilog/processor_design_verilog_latest/processor_design_verilog/processor_design_verilog.srcs/sources_1/new {D:/SystemVerilog/processor_design_verilog_latest/processor_design_verilog/processor_design_verilog.srcs/sources_1/new/Control_Unit.v}
+vlog -vlog01compat -work work +incdir+D:/SystemVerilog/processor_design_verilog_latest/processor_design_verilog/processor_design_verilog.srcs/sources_1/new {D:/SystemVerilog/processor_design_verilog_latest/processor_design_verilog/processor_design_verilog.srcs/sources_1/new/clock_divider.v}
+vlog -vlog01compat -work work +incdir+D:/SystemVerilog/processor_design_verilog_latest/processor_design_verilog/processor_design_verilog.srcs/sources_1/new {D:/SystemVerilog/processor_design_verilog_latest/processor_design_verilog/processor_design_verilog.srcs/sources_1/new/AR.v}
+vlog -vlog01compat -work work +incdir+D:/SystemVerilog/processor_design_verilog_latest/processor_design_verilog/processor_design_verilog.srcs/sources_1/new {D:/SystemVerilog/processor_design_verilog_latest/processor_design_verilog/processor_design_verilog.srcs/sources_1/new/ALU.v}
+
