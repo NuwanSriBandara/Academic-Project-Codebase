@@ -8,7 +8,10 @@ This repository is developed on the purpose of delivering the algorithmic implem
   - Electronic stethoscope project
   - Random signals simulation and analysis
 - Semester 4
-  - Sub Item 1
+  - Analysis of physiological systems
+    - Branch cylinders: Dentritic tree approximations
+    - Compartmental Systems
+    - Hodgkin–Huxley equations
   - Sub Item 2
 - Semester 5
 - Semester 6
