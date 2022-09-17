@@ -10,9 +10,11 @@ This repository is developed on the purpose of delivering the algorithmic implem
 - Semester 4
   - Analysis of physiological systems
     - Branch cylinders: Dentritic tree approximations
-    - Compartmental Systems
-    - Hodgkin–Huxley equations
-  - Sub Item 2
+    - Compartmental system modelling
+    - Hodgkin–Huxley modelling
+  - Digital signal processing
+    - FIR bandpass filter design with Kaiser window
+  - 
 - Semester 5
 - Semester 6
 
