@@ -14,8 +14,16 @@ This repository is developed on the purpose of delivering the algorithmic implem
     - Hodgkin–Huxley modelling
   - Digital signal processing
     - FIR bandpass filter design with Kaiser window
-  - 
+  - Fundamentals of image processing and computer vision
+    - Neural networks from scratch
+    - Object counting on a convey belt
+  - Internet of things
+    - IoT-empowered Air Quality Monitoring System integrated with a Machine Learning Framework to Detect and Predict defined Air Quality parameters
 - Semester 5
-- Semester 6
+  - Circuits and systems design
+    - Single purpose processor design for image downsampling
+  - Electronic control system modelling
+  - Electronic design realization project on Mini uninterruptable power supply for WiFi routers
+- Semester 6B
 
 Feel free to contact me if you need any help on these implementations!
