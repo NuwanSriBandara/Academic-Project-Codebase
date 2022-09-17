@@ -22,7 +22,7 @@ This repository is developed on the purpose of delivering the algorithmic implem
 - Semester 5
   - Circuits and systems design
     - Single purpose processor design for image downsampling
-  - Electronic control system modelling
+  - Control system modelling
   - Electronic design realization project on Mini uninterruptable power supply for WiFi routers
 - Semester 6B
 
