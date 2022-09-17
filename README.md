@@ -5,6 +5,8 @@ This repository is developed on the purpose of delivering the algorithmic implem
   - Electronic equalizer project
   - Line following and obstacle avoiding robot
 - Semester 3
+  - Electronic stethoscope project
+  - Random signals simulation and analysis
 - Semester 4
   - Sub Item 1
   - Sub Item 2
