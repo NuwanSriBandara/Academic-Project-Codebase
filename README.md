@@ -26,4 +26,4 @@ This repository is developed on the purpose of delivering the algorithmic implem
   - [Electronic design realization project on Mini uninterruptable power supply for WiFi routers](https://github.com/NuwanSriBandara/Academic-Project-Codebase/tree/main/Semester%205/Electronic%20Design%20Realization)
 - Semester 6B
 
-Feel free to contact me if you need mor information and/or any help on these implementations!
+Feel free to contact me if you need more information and/or any help on these implementations!
