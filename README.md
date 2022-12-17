@@ -6,17 +6,17 @@ This repository is developed for the purpose of delivering the algorithmic imple
   - Line following and obstacle avoiding robot
 - [Semester 3](https://github.com/NuwanSriBandara/Academic-Project-Codebase/tree/main/Semester%203)
   - Electronic stethoscope project
-  - Random signals simulation and analysis
+  - [Random signals simulation and analysis](https://github.com/NuwanSriBandara/Academic-Project-Codebase/tree/main/Semester%203/Random%20Signals%20and%20Processes/Simulation%20Assignment)
 - Semester 4
   - [Analysis of physiological systems](https://github.com/NuwanSriBandara/Academic-Project-Codebase/tree/main/Semester%204/Analysis%20of%20Physiological%20Systems)
-    - Branch cylinders: Dentritic tree approximations
-    - Compartmental system modelling
-    - Hodgkin–Huxley modelling
+    - [Branch cylinders: Dentritic tree approximations](https://github.com/NuwanSriBandara/Academic-Project-Codebase/tree/main/Semester%204/Analysis%20of%20Physiological%20Systems/Assignment_BranchCylinders_DendriticTreeApproximations)
+    - [Compartmental system modelling](https://github.com/NuwanSriBandara/Academic-Project-Codebase/tree/main/Semester%204/Analysis%20of%20Physiological%20Systems/Assignment_CompartmentalSystems)
+    - [Hodgkin–Huxley modelling](https://github.com/NuwanSriBandara/Academic-Project-Codebase/tree/main/Semester%204/Analysis%20of%20Physiological%20Systems/Assignment_HodgkinHuxley_Equations)
   - [Digital signal processing](https://github.com/NuwanSriBandara/Academic-Project-Codebase/tree/main/Semester%204/Digital%20Signal%20Processing/FIR%20Band-Pass%20Filter%20Design)
-    - FIR bandpass filter design with Kaiser window
+    - [FIR bandpass filter design with Kaiser window](https://github.com/NuwanSriBandara/Academic-Project-Codebase/tree/main/Semester%204/Digital%20Signal%20Processing/FIR%20Band-Pass%20Filter%20Design)
   - [Fundamentals of image processing and computer vision](https://github.com/NuwanSriBandara/Academic-Project-Codebase/tree/main/Semester%204/Image%20Processing%20and%20Computer%20Vision)
-    - Neural networks from scratch
-    - Object counting on a convey belt
+    - [Neural networks from scratch](https://github.com/NuwanSriBandara/Academic-Project-Codebase/tree/main/Semester%204/Image%20Processing%20and%20Computer%20Vision/Assignment%204)
+    - [Object counting on a convey belt](https://github.com/NuwanSriBandara/Academic-Project-Codebase/blob/main/Semester%204/Image%20Processing%20and%20Computer%20Vision/Assignment%205/EN2550%20Assignment%2005.pdf)
   - [Internet of things](https://github.com/NuwanSriBandara/Academic-Project-Codebase/tree/main/Semester%204/Internet%20of%20Things)
     - IoT-empowered Air Quality Monitoring System integrated with a Machine Learning Framework to Detect and Predict defined Air Quality parameters
 - Semester 5
@@ -28,6 +28,7 @@ This repository is developed for the purpose of delivering the algorithmic imple
   - Embedded Systems Engineering
     - [IoT Project](https://github.com/NuwanSriBandara/Academic-Project-Codebase/tree/main/Semester%206B/Embedded%20Systems%20Engineering/IoT%20Project)
     - [Code Compression](https://github.com/NuwanSriBandara/Academic-Project-Codebase/tree/main/Semester%206B/Embedded%20Systems%20Engineering/Code%20Compression)
+- Semester 7
 
 Feel free to [contact me](mailto:pmnsribandara@gmail.com) if you need more information and/or any help on these implementations!
 
