@@ -25,6 +25,9 @@ This repository is developed for the purpose of delivering the algorithmic imple
   - [Control system modelling](https://github.com/NuwanSriBandara/Academic-Project-Codebase/tree/main/Semester%205/Electronic%20Control%20Systems)
   - [Electronic design realization project on Mini uninterruptable power supply for WiFi routers](https://github.com/NuwanSriBandara/Academic-Project-Codebase/tree/main/Semester%205/Electronic%20Design%20Realization)
 - Semester 6B
+  - Embedded Systems Engineering
+    - [IoT Project](https://github.com/NuwanSriBandara/Academic-Project-Codebase/tree/main/Semester%206B/Embedded%20Systems%20Engineering/IoT%20Project)
+    - [Code Compression](https://github.com/NuwanSriBandara/Academic-Project-Codebase/tree/main/Semester%206B/Embedded%20Systems%20Engineering/Code%20Compression)
 
 Feel free to [contact me](mailto:pmnsribandara@gmail.com) if you need more information and/or any help on these implementations!
 
