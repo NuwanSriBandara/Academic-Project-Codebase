@@ -1,9 +1,9 @@
 # Academic Codes in B.Sc. of Biomedical Engineering
 This repository is developed for the purpose of delivering the algorithmic implementations of my semester works/academic projects in [B.Sc. of Biomedical Engineering](https://ent.uom.lk/bachelors/) at [University of Moratuwa, Sri Lanka](https://uom.lk/).
 
-- [Semester 2](https://github.com/NuwanSriBandara/Academic-Project-Codebase/tree/main/Semester%202/Laboratory%20Practise)
-  - Electronic equalizer project
-  - Line following and obstacle avoiding robot
+- Semester 2
+  - [Electronic equalizer project](https://github.com/NuwanSriBandara/Academic-Project-Codebase/tree/main/Semester%202/Laboratory%20Practise/Electronic%20Equalizer%20Project)
+  - [Line following and obstacle avoiding robot](https://github.com/NuwanSriBandara/Academic-Project-Codebase/tree/main/Semester%202/Laboratory%20Practise/Semester%20Project)
 - [Semester 3](https://github.com/NuwanSriBandara/Academic-Project-Codebase/tree/main/Semester%203)
   - Electronic stethoscope project
   - [Random signals simulation and analysis](https://github.com/NuwanSriBandara/Academic-Project-Codebase/tree/main/Semester%203/Random%20Signals%20and%20Processes/Simulation%20Assignment)
