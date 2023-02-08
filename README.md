@@ -4,8 +4,8 @@ This repository is developed for the purpose of delivering the algorithmic imple
 - Semester 2
   - [Electronic equalizer project](https://github.com/NuwanSriBandara/Academic-Project-Codebase/tree/main/Semester%202/Laboratory%20Practise/Electronic%20Equalizer%20Project)
   - [Line following and obstacle avoiding robot](https://github.com/NuwanSriBandara/Academic-Project-Codebase/tree/main/Semester%202/Laboratory%20Practise/Semester%20Project)
-- [Semester 3](https://github.com/NuwanSriBandara/Academic-Project-Codebase/tree/main/Semester%203)
-  - Electronic stethoscope project
+- Semester 3
+  - [Electronic stethoscope project](https://github.com/NuwanSriBandara/Academic-Project-Codebase/tree/main/Semester%203/Laboratory%20Practice-II)
   - [Random signals simulation and analysis](https://github.com/NuwanSriBandara/Academic-Project-Codebase/tree/main/Semester%203/Random%20Signals%20and%20Processes/Simulation%20Assignment)
 - Semester 4
   - [Analysis of physiological systems](https://github.com/NuwanSriBandara/Academic-Project-Codebase/tree/main/Semester%204/Analysis%20of%20Physiological%20Systems)
