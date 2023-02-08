@@ -8,11 +8,11 @@ This repository is developed for the purpose of delivering the algorithmic imple
   - [Electronic stethoscope project](https://github.com/NuwanSriBandara/Academic-Project-Codebase/tree/main/Semester%203/Laboratory%20Practice-II)
   - [Random signals simulation and analysis](https://github.com/NuwanSriBandara/Academic-Project-Codebase/tree/main/Semester%203/Random%20Signals%20and%20Processes/Simulation%20Assignment)
 - Semester 4
-  - [Analysis of physiological systems](https://github.com/NuwanSriBandara/Academic-Project-Codebase/tree/main/Semester%204/Analysis%20of%20Physiological%20Systems)
+  - Analysis of physiological systems
     - [Branch cylinders: Dentritic tree approximations](https://github.com/NuwanSriBandara/Academic-Project-Codebase/tree/main/Semester%204/Analysis%20of%20Physiological%20Systems/Assignment_BranchCylinders_DendriticTreeApproximations)
     - [Compartmental system modelling](https://github.com/NuwanSriBandara/Academic-Project-Codebase/tree/main/Semester%204/Analysis%20of%20Physiological%20Systems/Assignment_CompartmentalSystems)
     - [Hodgkin–Huxley modelling](https://github.com/NuwanSriBandara/Academic-Project-Codebase/tree/main/Semester%204/Analysis%20of%20Physiological%20Systems/Assignment_HodgkinHuxley_Equations)
-  - [Digital signal processing](https://github.com/NuwanSriBandara/Academic-Project-Codebase/tree/main/Semester%204/Digital%20Signal%20Processing/FIR%20Band-Pass%20Filter%20Design)
+  - Digital signal processing
     - [FIR bandpass filter design with Kaiser window](https://github.com/NuwanSriBandara/Academic-Project-Codebase/tree/main/Semester%204/Digital%20Signal%20Processing/FIR%20Band-Pass%20Filter%20Design)
   - [Fundamentals of image processing and computer vision](https://github.com/NuwanSriBandara/Academic-Project-Codebase/tree/main/Semester%204/Image%20Processing%20and%20Computer%20Vision)
     - [Neural networks from scratch](https://github.com/NuwanSriBandara/Academic-Project-Codebase/tree/main/Semester%204/Image%20Processing%20and%20Computer%20Vision/Assignment%204)
