@@ -29,6 +29,9 @@ This repository is developed for the purpose of delivering the algorithmic imple
     - [IoT Project](https://github.com/NuwanSriBandara/Academic-Project-Codebase/tree/main/Semester%206B/Embedded%20Systems%20Engineering/IoT%20Project)
     - [Code Compression](https://github.com/NuwanSriBandara/Academic-Project-Codebase/tree/main/Semester%206B/Embedded%20Systems%20Engineering/Code%20Compression)
 - Semester 7
+  - Medical Electronics and Instrumentation
+  - Biosignal Processing
+  - Machine Vision 
 
 Feel free to [contact me](mailto:pmnsribandara@gmail.com) if you need more information and/or any help on these implementations!
 
