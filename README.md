@@ -31,7 +31,9 @@ This repository is developed for the purpose of delivering the algorithmic imple
 - Semester 7
   - Medical Electronics and Instrumentation
   - Biosignal Processing
-  - Machine Vision 
+  - Machine Vision
+    - Probability for Machine Learning
+    - Regression Analysis 
 
 Feel free to [contact me](mailto:pmnsribandara@gmail.com) if you need more information and/or any help on these implementations!
 
