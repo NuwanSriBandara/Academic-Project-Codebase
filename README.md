@@ -14,6 +14,10 @@ This repository is developed for the purpose of delivering the algorithmic imple
     - [Hodgkin–Huxley modelling](https://github.com/NuwanSriBandara/Academic-Project-Codebase/tree/main/Semester%204/Analysis%20of%20Physiological%20Systems/Assignment_HodgkinHuxley_Equations)
   - Digital signal processing
     - [FIR bandpass filter design with Kaiser window](https://github.com/NuwanSriBandara/Academic-Project-Codebase/tree/main/Semester%204/Digital%20Signal%20Processing/FIR%20Band-Pass%20Filter%20Design)
+  - Electronics III
+    - Power Amplifiers
+    - Programmable Logic Devices
+    - Timing Analysis of Digital Circuits
   - [Fundamentals of image processing and computer vision](https://github.com/NuwanSriBandara/Academic-Project-Codebase/tree/main/Semester%204/Image%20Processing%20and%20Computer%20Vision)
     - [Neural networks from scratch](https://github.com/NuwanSriBandara/Academic-Project-Codebase/tree/main/Semester%204/Image%20Processing%20and%20Computer%20Vision/Assignment%204)
     - [Object counting on a convey belt](https://github.com/NuwanSriBandara/Academic-Project-Codebase/blob/main/Semester%204/Image%20Processing%20and%20Computer%20Vision/Assignment%205/EN2550%20Assignment%2005.pdf)

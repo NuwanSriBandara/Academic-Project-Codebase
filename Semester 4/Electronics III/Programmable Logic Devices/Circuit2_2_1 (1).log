@@ -1,0 +1,21 @@
+Circuit: * E:\Semester 4\EN2110_4G\Tamil Sir\Draft2.asc
+
+Direct Newton iteration for .op point succeeded.
+
+Date: Fri May 14 15:27:44 2021
+Total elapsed time: 0.122 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 4117
+traniter = 4098
+tranpoints = 1595
+accept = 1505
+rejected = 90
+matrix size = 7
+fillins = 0
+solver = Normal
+Matrix Compiler1:      18 opcodes  0.1/[0.0]/0.0
+Matrix Compiler2: 595 bytes object code size  0.1/0.1/[0.1]
+
