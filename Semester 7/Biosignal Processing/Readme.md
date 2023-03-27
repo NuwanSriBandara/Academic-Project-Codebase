@@ -1,1 +1,13 @@
-
+This folder contains the coursework and implementations of the following:
+  - [Digital Filters]()
+    - Smoothing Filters
+    - Ensemble Averaging
+    - FIR derivative filters
+    - FIR filters using windows
+    - IIR filters 
+  - [Wiener and Adaptive Filtering]()
+    - Wiener filters
+    - Adaptive filters
+  - Continuous and Discrete Wavelet Transforms
+    - Continuous wavelet transform
+    - Discrete wavelet transform

@@ -30,10 +30,24 @@ This repository is developed for the purpose of delivering the algorithmic imple
     - [Code Compression](https://github.com/NuwanSriBandara/Academic-Project-Codebase/tree/main/Semester%206B/Embedded%20Systems%20Engineering/Code%20Compression)
 - Semester 7
   - Medical Electronics and Instrumentation
+    - [Instrumentation Amplifier Design](https://github.com/NuwanSriBandara/Academic-Project-Codebase/tree/main/Semester%207/Medical%20Electronics%20%26%20Instrumentation/Instrumentation%20Amplifier%20Design)
+    - [Respiratory Inductive Plethysmography](https://github.com/NuwanSriBandara/Academic-Project-Codebase/tree/main/Semester%207/Medical%20Electronics%20%26%20Instrumentation/Respiratory%20Inductive%20Plethysmography) 
   - Biosignal Processing
+    - [Digital Filters]()
+      - Smoothing Filters
+      - Ensemble Averaging
+      - FIR derivative filters
+      - FIR filters using windows
+      - IIR filters 
+    - [Wiener and Adaptive Filtering](y)
+      - Wiener filters
+      - Adaptive filters
+    - Continuous and Discrete Wavelet Transforms
+      - Continuous wavelet transform
+      - Discrete wavelet transform
   - Machine Vision
-    - Probability for Machine Learning
-    - Regression Analysis 
+    - [Probability for Machine Learning](https://github.com/NuwanSriBandara/Academic-Project-Codebase/tree/main/Semester%207/Machine%20Vision/Probability%20for%20Machine%20Learning)
+    - [Regression Analysis](https://github.com/NuwanSriBandara/Academic-Project-Codebase/tree/main/Semester%207/Machine%20Vision/Regression%20Analysis) 
 
 Feel free to [contact me](mailto:pmnsribandara@gmail.com) if you need more information and/or any help on these implementations!
 
