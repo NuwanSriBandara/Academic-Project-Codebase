@@ -1,0 +1,21 @@
+Removed Pin From Net: NetName=NetC6_1 Pin=C8-2
+Change Component DesignItemId : Designator=C8 Old DesignItemId=478CKS010M New DesignItemId=ECA1JM330I
+Change Component Footprint: Designator=C8 Old Footprint=CAPPRD500W60D1330H2700 New Footprint=CAPPRD250W50D630H1120
+Change Component Description : Designator=C8 Old Description=4700µF 10V Aluminum Electrolytic Capacitors Radial, Can 98.8mOhm @ 120Hz 2000 Hrs @ 85°C New Description=CAP ALUM 33UF 20% 63V RADIAL
+Change Component Library : Designator=C8 Old Library=478CKS010M.IntLib New Library=ECA1JM330I.IntLib
+Change component parameters: Designator = "C8"; Footprint = "CAPPRD250W50D630H1120"; UniqueID = "\SKOELTIV"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Availability"; Value = "In Stock"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Check_prices"; Value = "https://www.snapeda.com/parts/ECA1JM330I/Panasonic/view-part/?ref=eda"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MF"; Value = "Panasonic"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MP"; Value = "ECA1JM330I"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "RADIAL-2 Panasonic"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Purchase-URL"; Value = "https://pricing.snapeda.com/search/part/ECA1JM330I/?ref=eda"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/ECA1JM330I/Panasonic/view-part/?ref=snap"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetC6_1 Pin=C8-N
+Added Pin To Net: NetName=NetC8_P Pin=C8-P
+Added Pin To Net: NetName=NetC8_P Pin=R2-2
+Added Pin To Net: NetName=NetC8_P Pin=U2-3
+Added Net: Name=NetC8_P

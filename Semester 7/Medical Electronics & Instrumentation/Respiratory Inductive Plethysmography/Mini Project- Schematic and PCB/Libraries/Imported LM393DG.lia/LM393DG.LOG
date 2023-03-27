@@ -1,0 +1,86 @@
+PCAD Importer Log
+Project : LM393DG.LibPkg
+
+Section : F:\My Submissions\Semester 7\BM4111 Medical Electronics and Instrumentation\Mini Project\Mini Project\Libraries\LM393DG.lia
+    Section : PCB Library - LM393DG.PcbLib
+        Section : Load Messages
+            Warning - 1 : Skipping Token isVisible On Line 201
+            Warning - 1 : Skipping Token isVisible On Line 276
+            Warning - 1 : Skipping Token isVisible On Line 332
+            Warning - 1 : Skipping Token isVisible On Line 333
+            Warning - 1 : Skipping Token isVisible On Line 334
+            Warning - 1 : Skipping Token isVisible On Line 335
+            Warning - 1 : Skipping Token isVisible On Line 336
+            Warning - 1 : Skipping Token isVisible On Line 337
+            Warning - 1 : Skipping Token isVisible On Line 338
+            Warning - 1 : Skipping Token isVisible On Line 339
+            Warning - 1 : Skipping Token isVisible On Line 340
+            Warning - 1 : Skipping Token isVisible On Line 390
+            Warning - 1 : Skipping Token isVisible On Line 446
+            Warning - 1 : Skipping Token isVisible On Line 447
+            Warning - 1 : Skipping Token isVisible On Line 448
+            Warning - 1 : Skipping Token isVisible On Line 449
+            Warning - 1 : Skipping Token isVisible On Line 450
+            Warning - 1 : Skipping Token isVisible On Line 451
+            Warning - 1 : Skipping Token isVisible On Line 452
+            Warning - 1 : Skipping Token isVisible On Line 453
+            Warning - 1 : Skipping Token isVisible On Line 454
+            Warning - 1 : Skipping Token isVisible On Line 460
+            Warning - 1 : Skipping Token isVisible On Line 535
+            Warning - 1 : Skipping Token isVisible On Line 591
+            Warning - 1 : Skipping Token isVisible On Line 592
+            Warning - 1 : Skipping Token isVisible On Line 593
+            Warning - 1 : Skipping Token isVisible On Line 594
+            Warning - 1 : Skipping Token isVisible On Line 595
+            Warning - 1 : Skipping Token isVisible On Line 596
+            Warning - 1 : Skipping Token isVisible On Line 597
+            Warning - 1 : Skipping Token isVisible On Line 598
+            Warning - 1 : Skipping Token isVisible On Line 599
+            Warning - 1 : Skipping Token isVisible On Line 649
+            Warning - 1 : Skipping Token isVisible On Line 705
+            Warning - 1 : Skipping Token isVisible On Line 706
+            Warning - 1 : Skipping Token isVisible On Line 707
+            Warning - 1 : Skipping Token isVisible On Line 708
+            Warning - 1 : Skipping Token isVisible On Line 709
+            Warning - 1 : Skipping Token isVisible On Line 710
+            Warning - 1 : Skipping Token isVisible On Line 711
+            Warning - 1 : Skipping Token isVisible On Line 712
+            Warning - 1 : Skipping Token isVisible On Line 713
+            Warning - 1 : Skipping Token isVisible On Line 719
+            Warning - 1 : Skipping Token LM393DG On Line 724
+            Warning - 1 : Skipping Token attachedSymbol On Line 833
+        EndSection
+
+        Section : Import Messages
+        EndSection
+    EndSection
+
+    Section : SCH Library - LM393DG.SchLib
+        Section : Parsing Messages
+            Warning - 1 : Skipping Token padStyleDef On Line 9
+            Warning - 1 : Skipping Token padStyleDef On Line 21
+            Warning - 1 : Skipping Token padStyleDef On Line 33
+            Warning - 1 : Skipping Token multiLayer On Line 108
+            Warning - 1 : Skipping Token layerContents On Line 118
+            Warning - 1 : Skipping Token layerContents On Line 159
+            Warning - 1 : Skipping Token layerContents On Line 200
+            Warning - 1 : Skipping Token multiLayer On Line 211
+            Warning - 1 : Skipping Token layerContents On Line 221
+            Warning - 1 : Skipping Token layerContents On Line 229
+            Warning - 1 : Skipping Token layerContents On Line 237
+            Warning - 1 : Skipping Token layerContents On Line 343
+            Warning - 1 : Skipping Token layerContents On Line 351
+            Warning - 1 : Skipping Token layerContents On Line 457
+            Warning - 1 : Skipping Token multiLayer On Line 470
+            Warning - 1 : Skipping Token layerContents On Line 480
+            Warning - 1 : Skipping Token layerContents On Line 488
+            Warning - 1 : Skipping Token layerContents On Line 496
+            Warning - 1 : Skipping Token layerContents On Line 602
+            Warning - 1 : Skipping Token layerContents On Line 610
+            Warning - 1 : Skipping Token layerContents On Line 716
+        EndSection
+
+        Section : Generating SCH Library - LM393DG.SchLib
+        EndSection
+    EndSection
+EndSection

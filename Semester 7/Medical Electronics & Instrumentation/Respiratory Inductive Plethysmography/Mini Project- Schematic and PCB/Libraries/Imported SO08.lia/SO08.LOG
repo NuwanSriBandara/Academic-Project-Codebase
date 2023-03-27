@@ -1,0 +1,26 @@
+PCAD Importer Log
+Project : SO08.LibPkg
+
+Section : F:\My Submissions\Semester 7\BM4111 Medical Electronics and Instrumentation\Mini Project\Mini Project\Libraries\SO08.lia
+    Section : PCB Library - SO08.PcbLib
+        Section : Load Messages
+            Warning - 1 : Skipping Token OP-AMP On Line 207
+        EndSection
+
+        Section : Import Messages
+        EndSection
+    EndSection
+
+    Section : SCH Library - SO08.SchLib
+        Section : Parsing Messages
+            Warning - 1 : Skipping Token padStyleDef On Line 9
+            Warning - 1 : Skipping Token multiLayer On Line 84
+            Warning - 1 : Skipping Token layerContents On Line 94
+            Warning - 1 : Skipping Token layerContents On Line 148
+            Warning - 1 : Skipping Token layerContents On Line 202
+        EndSection
+
+        Section : Generating SCH Library - SO08.SchLib
+        EndSection
+    EndSection
+EndSection

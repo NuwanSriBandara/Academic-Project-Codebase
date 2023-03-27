@@ -1,0 +1,15 @@
+Change Component DesignItemId : Designator=C8 Old DesignItemId=Cap Pol1 New DesignItemId=478CKS010M
+Change Component Footprint: Designator=C8 Old Footprint=RB7.6-15 New Footprint=CAPPRD500W60D1330H2700
+Change Component Comment : Designator=C8 Old Comment= New Comment=*
+Change Component Description : Designator=C8 Old Description=Polarized Capacitor (Radial) New Description=4700µF 10V Aluminum Electrolytic Capacitors Radial, Can 98.8mOhm @ 120Hz 2000 Hrs @ 85°C
+Change Component Library : Designator=C8 Old Library=Miscellaneous Devices.IntLib New Library=478CKS010M.IntLib
+Change component parameters: Designator = "C8"; Footprint = "CAPPRD500W60D1330H2700"; UniqueID = "\SKOELTIV"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Availability"; Value = "Warning"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MF"; Value = "Illinois Capacitor"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser-Purchase-URL"; Value = "https://snapeda.com/shop?store=Mouser&id=2347563"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MP"; Value = "478CKS010M"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "Radial Illinois Capacitor"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/478CKS010M/Illinois%20Capacitor/view-part/2347563/?ref=snap"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"

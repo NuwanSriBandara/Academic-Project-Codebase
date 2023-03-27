@@ -1,0 +1,20 @@
+Removed Pin From Net: NetName=NetC1_1 Pin=D1-1
+Removed Pin From Net: NetName=GND Pin=D1-2
+Change Component DesignItemId : Designator=D1 Old DesignItemId=Diode 1N4934 New DesignItemId=RB520ZS-30T2R
+Change Component Footprint: Designator=D1 Old Footprint=DO-41 New Footprint=DIODFN60X30X36-2N
+Change Component Comment : Designator=D1 Old Comment=Diode 1N4148 New Comment=1N4148
+Change Component Description : Designator=D1 Old Description=1 Amp Fast Recovery Rectifier New Description=Diode Schottky 30V 100mA Surface Mount GMD2
+Change Component Library : Designator=D1 Old Library=Miscellaneous Devices.IntLib New Library=RB520ZS-30T2R.IntLib
+Change component parameters: Designator = "D1"; Footprint = "DIODFN60X30X36-2N"; UniqueID = "\EPRIVPAB"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Availability"; Value = "Warning"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DigiKey-Purchase-URL"; Value = "https://snapeda.com/shop?store=DigiKey&id=119018"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MF"; Value = "Rohm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser-Purchase-URL"; Value = "https://snapeda.com/shop?store=Mouser&id=119018"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "MP"; Value = "RB520ZS-30T2R"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "0201 Rohm"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Price"; Value = "None"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SnapEDA_Link"; Value = "https://www.snapeda.com/parts/RB520ZS-30T2R/Rohm/view-part/119018/?ref=snap"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Value"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetC1_1 Pin=D1-A
+Added Pin To Net: NetName=GND Pin=D1-C
