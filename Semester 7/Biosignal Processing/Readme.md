@@ -1,13 +1,13 @@
 This folder contains the coursework and implementations of the following:
-  - [Digital Filters]()
+  - [Digital Filters](https://github.com/NuwanSriBandara/Academic-Project-Codebase/tree/main/Semester%207/Biosignal%20Processing/Digital%20Filters)
     - Smoothing Filters
     - Ensemble Averaging
     - FIR derivative filters
     - FIR filters using windows
     - IIR filters 
-  - [Wiener and Adaptive Filtering]()
+  - [Wiener and Adaptive Filtering](https://github.com/NuwanSriBandara/Academic-Project-Codebase/tree/main/Semester%207/Biosignal%20Processing/Wiener%20and%20Adaptive%20Filtering)
     - Wiener filters
     - Adaptive filters
-  - Continuous and Discrete Wavelet Transforms
+  - [Continuous and Discrete Wavelet Transforms](https://github.com/NuwanSriBandara/Academic-Project-Codebase/tree/main/Semester%207/Biosignal%20Processing/Wavelet%20Transforms)
     - Continuous wavelet transform
     - Discrete wavelet transform

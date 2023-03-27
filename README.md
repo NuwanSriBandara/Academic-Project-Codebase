@@ -32,19 +32,10 @@ This repository is developed for the purpose of delivering the algorithmic imple
   - Medical Electronics and Instrumentation
     - [Instrumentation Amplifier Design](https://github.com/NuwanSriBandara/Academic-Project-Codebase/tree/main/Semester%207/Medical%20Electronics%20%26%20Instrumentation/Instrumentation%20Amplifier%20Design)
     - [Respiratory Inductive Plethysmography](https://github.com/NuwanSriBandara/Academic-Project-Codebase/tree/main/Semester%207/Medical%20Electronics%20%26%20Instrumentation/Respiratory%20Inductive%20Plethysmography) 
-  - Biosignal Processing
-    - [Digital Filters]()
-      - Smoothing Filters
-      - Ensemble Averaging
-      - FIR derivative filters
-      - FIR filters using windows
-      - IIR filters 
-    - [Wiener and Adaptive Filtering](y)
-      - Wiener filters
-      - Adaptive filters
-    - Continuous and Discrete Wavelet Transforms
-      - Continuous wavelet transform
-      - Discrete wavelet transform
+  - [Biosignal Processing](https://github.com/NuwanSriBandara/Academic-Project-Codebase/tree/main/Semester%207/Biosignal%20Processing)
+    - [Digital Filters](https://github.com/NuwanSriBandara/Academic-Project-Codebase/tree/main/Semester%207/Biosignal%20Processing/Digital%20Filters) 
+    - [Wiener and Adaptive Filtering](https://github.com/NuwanSriBandara/Academic-Project-Codebase/tree/main/Semester%207/Biosignal%20Processing/Wiener%20and%20Adaptive%20Filtering)
+    - [Continuous and Discrete Wavelet Transforms](https://github.com/NuwanSriBandara/Academic-Project-Codebase/tree/main/Semester%207/Biosignal%20Processing/Wavelet%20Transforms)
   - Machine Vision
     - [Probability for Machine Learning](https://github.com/NuwanSriBandara/Academic-Project-Codebase/tree/main/Semester%207/Machine%20Vision/Probability%20for%20Machine%20Learning)
     - [Regression Analysis](https://github.com/NuwanSriBandara/Academic-Project-Codebase/tree/main/Semester%207/Machine%20Vision/Regression%20Analysis) 
