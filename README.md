@@ -1,5 +1,5 @@
 # Academic Codes in B.Sc. of Biomedical Engineering
-This repository is developed for the purpose of delivering the algorithmic implementations of my semester works/academic projects in [B.Sc. of Biomedical Engineering](https://ent.uom.lk/bachelors/) at [University of Moratuwa, Sri Lanka](https://uom.lk/).
+This repository is developed for the purpose of delivering the algorithmic implementations of my coursework/academic projects in [B.Sc. of Biomedical Engineering](https://ent.uom.lk/bachelors/) at [University of Moratuwa, Sri Lanka](https://uom.lk/).
 
 - Semester 2
   - [Electronic equalizer project](https://github.com/NuwanSriBandara/Academic-Project-Codebase/tree/main/Semester%202/Laboratory%20Practise/Electronic%20Equalizer%20Project)
@@ -44,6 +44,6 @@ This repository is developed for the purpose of delivering the algorithmic imple
     - [Probability for Machine Learning](https://github.com/NuwanSriBandara/Academic-Project-Codebase/tree/main/Semester%207/Machine%20Vision/Probability%20for%20Machine%20Learning)
     - [Regression Analysis](https://github.com/NuwanSriBandara/Academic-Project-Codebase/tree/main/Semester%207/Machine%20Vision/Regression%20Analysis) 
 
-Feel free to [contact me](mailto:pmnsribandara@gmail.com) if you need more information and/or any help on these implementations!
+Please note that each folder and/or file contains all the necessary details on each coursework and feel free to [contact me](mailto:pmnsribandara@gmail.com) if you need more information and/or any help on these implementations!
 
 Please note that one or more documents in whatsoever mean and/or format in this repository could be considered as part and/or property of the University of Moratuwa and therefore, it would be needed to give necessary credits to and/or acquire necessary permission from the University of Moratuwa if you refer and/or use these documents by any means, as decided by the University of Moratuwa at its discretion. As the author of this repository, I give away my rights for these works, which were completely or partially developed and/or executed and/or attended by me, under the license [GNU Affero General Public License v3.0](https://www.gnu.org/licenses/agpl-3.0.en.html) 
