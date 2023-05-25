@@ -42,7 +42,8 @@ This repository is developed for the purpose of delivering the algorithmic imple
     - [Continuous and Discrete Wavelet Transforms](https://github.com/NuwanSriBandara/Academic-Project-Codebase/tree/main/Semester%207/Biosignal%20Processing/Wavelet%20Transforms)
   - Machine Vision
     - [Probability for Machine Learning](https://github.com/NuwanSriBandara/Academic-Project-Codebase/tree/main/Semester%207/Machine%20Vision/Probability%20for%20Machine%20Learning)
-    - [Regression Analysis](https://github.com/NuwanSriBandara/Academic-Project-Codebase/tree/main/Semester%207/Machine%20Vision/Regression%20Analysis) 
+    - [Regression Analysis](https://github.com/NuwanSriBandara/Academic-Project-Codebase/tree/main/Semester%207/Machine%20Vision/Regression%20Analysis)
+- Semester 8 
 
 Please note that each folder and/or file contains all the necessary details on each coursework and feel free to [contact me](mailto:pmnsribandara@gmail.com) if you need more information and/or any help on these implementations!
 
