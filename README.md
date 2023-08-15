@@ -25,7 +25,7 @@ This repository is developed for the purpose of delivering the algorithmic imple
     - IoT-empowered Air Quality Monitoring System integrated with a Machine Learning Framework to Detect and Predict defined Air Quality parameters
 - Semester 5
   - [Circuits and systems design](https://github.com/NuwanSriBandara/Academic-Project-Codebase/tree/main/Semester%205/Circuits%20and%20Systems%20Design)
-    - Single purpose processor design for image downsampling
+    - Single-purpose processor design for image downsampling
   - [Control system modelling](https://github.com/NuwanSriBandara/Academic-Project-Codebase/tree/main/Semester%205/Electronic%20Control%20Systems)
   - [Electronic design realization project on Mini uninterruptable power supply for WiFi routers](https://github.com/NuwanSriBandara/Academic-Project-Codebase/tree/main/Semester%205/Electronic%20Design%20Realization)
 - Semester 6B
@@ -43,7 +43,9 @@ This repository is developed for the purpose of delivering the algorithmic imple
   - Machine Vision
     - [Probability for Machine Learning](https://github.com/NuwanSriBandara/Academic-Project-Codebase/tree/main/Semester%207/Machine%20Vision/Probability%20for%20Machine%20Learning)
     - [Regression Analysis](https://github.com/NuwanSriBandara/Academic-Project-Codebase/tree/main/Semester%207/Machine%20Vision/Regression%20Analysis)
-- Semester 8 
+- Semester 8
+  - Biomechanics
+  - Advances in Machine Vision
 
 Please note that each folder and/or file contains all the necessary details on each coursework and feel free to [contact me](mailto:pmnsribandara@gmail.com) if you need more information and/or any help on these implementations!
 
