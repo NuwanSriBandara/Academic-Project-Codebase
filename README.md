@@ -45,7 +45,8 @@ This repository is developed for the purpose of delivering the algorithmic imple
     - [Regression Analysis](https://github.com/NuwanSriBandara/Academic-Project-Codebase/tree/main/Semester%207/Machine%20Vision/Regression%20Analysis)
 - Semester 8
   - Biomechanics
-  - Advances in Machine Vision
+    - [Gait Analysis](https://github.com/NuwanSriBandara/Academic-Project-Codebase/tree/main/Semester%208/Biomechanics/Gait%20Analysis)
+  - [Advances in Machine Vision](https://github.com/NuwanSriBandara/Academic-Project-Codebase/tree/main/Semester%208/Advances%20in%20Machine%20Vision)
 
 Please note that each folder and/or file contains all the necessary details on each coursework and feel free to [contact me](mailto:pmnsribandara@gmail.com) if you need more information and/or any help on these implementations!
 
