@@ -1,5 +1,5 @@
 @-webkit-keyframes spinAround{from{-webkit-transform:rotate(0);transform:rotate(0)}to{-webkit-transform:rotate(359deg);transform:rotate(359deg)}}@keyframes spinAround{from{-webkit-transform:rotate(0);transform:rotate(0)}to{-webkit-transform:rotate(359deg);transform:rotate(359deg)}}
-.slider{position:relative;width:50%}.slider-container{display:flex;flex-wrap:nowrap;flex-direction:row;overflow:hidden;-webkit-transform:translate3d(0,0,0);transform:translate3d(0,0,0);min-height:100%}
+.slider{position:relative;width:75%}.slider-container{display:flex;flex-wrap:nowrap;flex-direction:row;overflow:hidden;-webkit-transform:translate3d(0,0,0);transform:translate3d(0,0,0);min-height:100%}
 .slider-container.is-vertical{flex-direction:column}.slider-container .slider-item{flex:none}.slider-container .slider-item .image.is-covered img{width:auto; height:auto; max-height:100px;max-width:100px}
 .slider-container .slider-item .video-container{height:0;padding-bottom:0;padding-top:30%;margin:0;position:relative}.slider-container .slider-item .video-container.is-1by1,.slider-container .slider-item .video-container.is-square{padding-top:50%}
 .slider-container .slider-item .video-container.is-4by3{padding-top:25%}.slider-container .slider-item .video-container.is-21by9{padding-top:25%}.slider-container .slider-item .video-container embed,
