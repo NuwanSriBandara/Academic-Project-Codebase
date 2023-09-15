@@ -1,6 +1,6 @@
 # Academic Codes in B.Sc. of Biomedical Engineering
 
-[Web Page for the Projects Collection](https://nuwansribandara.github.io/Academic-Project-Codebase/)
+[[Web Page for the Projects Collection](https://nuwansribandara.github.io/Academic-Project-Codebase/)]
 
 This repository is developed for the purpose of delivering the algorithmic implementations of my coursework/academic projects in [B.Sc. of Biomedical Engineering](https://ent.uom.lk/bachelors/) at [University of Moratuwa, Sri Lanka](https://uom.lk/).
 
