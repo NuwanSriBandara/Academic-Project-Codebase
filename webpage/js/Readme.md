@@ -1,1 +1,0 @@
-javescript for the webpage
