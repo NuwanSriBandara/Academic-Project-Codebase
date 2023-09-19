@@ -1,5 +1,5 @@
 # Academic Codes in B.Sc. of Biomedical Engineering
-The project page for the repository is developed for the purpose of delivering the algorithmic implementations of my coursework/academic projects in [B.Sc. of Biomedical Engineering](https://ent.uom.lk/bachelors/) at [University of Moratuwa, Sri Lanka](https://uom.lk/).
+The **project page** for the repository is developed for the purpose of delivering the algorithmic implementations of my coursework/academic projects in [B.Sc. of Biomedical Engineering](https://ent.uom.lk/bachelors/) at [University of Moratuwa, Sri Lanka](https://uom.lk/).
 
 - Semester 2
   - [Electronic equalizer project](https://github.com/NuwanSriBandara/Academic-Project-Codebase/tree/main/Semester%202/Laboratory%20Practise/Electronic%20Equalizer%20Project)
